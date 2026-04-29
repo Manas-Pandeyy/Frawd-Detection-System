@@ -2,14 +2,61 @@
 
 This project is a complete beginner-friendly fraud detection system using an **imbalanced credit card dataset**.
 
-It includes:
-- Data preprocessing (missing values, scaling, normalization)
-- EDA plots
-- Imbalance handling using **SMOTE**
-- Model training and comparison (**Logistic Regression**, **Random Forest**, **XGBoost**)
-- Best model selection (based on **recall**)
-- Real-time prediction with probability
-- Streamlit UI dashboard + alert simulation + basic explanation
+Developed an end-to-end Fraud Detection System to identify suspicious financial transactions using Machine Learning techniques.
+
+🔹 Data Preprocessing:
+Performed data cleaning, handled missing values, and normalized numerical features using StandardScaler. Removed duplicate entries to improve data quality.
+
+🔹 Handling Imbalanced Data:
+Applied SMOTE (Synthetic Minority Oversampling Technique) to balance the dataset and improve model performance on minority (fraud) class.
+
+🔹 Exploratory Data Analysis (EDA):
+Conducted in-depth EDA using Matplotlib and Seaborn to understand transaction patterns, fraud distribution, and feature relationships through visualizations.
+
+🔹 Model Building:
+Trained and compared multiple Machine Learning models:
+
+* Logistic Regression
+* Random Forest Classifier
+* XGBoost Classifier
+
+Evaluation was focused on Recall, Precision, and F1-score, with special emphasis on Recall to minimize false negatives (i.e., undetected fraud cases).
+
+🔹 Model Selection:
+Selected the best-performing model based on evaluation metrics and saved it using Joblib for future predictions.
+
+🔹 Real-Time Prediction System:
+Built a prediction pipeline where users can input transaction details (amount, time, etc.) and receive:
+
+* Fraud / Not Fraud classification
+* Probability score for better interpretability
+
+🔹 User Interface (UI):
+Developed an interactive web application using Streamlit:
+
+* User-friendly input fields
+* Real-time prediction button
+* Clear output display with alerts
+
+🔹 Advanced Features:
+
+* Dashboard showing fraud vs non-fraud transactions
+* Alert system for detected fraud cases
+* Model explainability using feature importance
+
+🔹 Tech Stack:
+
+* Python, Pandas, NumPy
+* Scikit-learn, XGBoost
+* Matplotlib, Seaborn
+* Streamlit (for UI)
+* Joblib (model saving)
+
+🔹 Outcome:
+Successfully built a production-like ML system capable of detecting fraudulent transactions with high recall, ensuring minimal risk of missing fraud cases.
+
+This project demonstrates strong understanding of data preprocessing, imbalance handling, model evaluation, and real-world deployment of machine learning systems.
+
 
 ---
 
