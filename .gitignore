@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+models/*.joblib
+models/*.json
+models/*.txt
+reports/*.png
+data/cleaned_creditcard.csv
+data/
+model/
+__pycache__/
